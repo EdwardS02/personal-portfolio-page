@@ -38,25 +38,47 @@ nav a:hover {
     transition: .3s;
 }
 
-#intro {
+.container {
     background-color: #222831;
     margin: 2rem;
     padding: 1rem;
 }
 
-#intro-content {
+#intro {
     display: flex;
     justify-content: space-around;
 }
 
-#intro-content p {
+#intro p {
     max-width: 40rem;
 }
 
-#intro-content img {
+.image {
     height: 20rem;
+    border: 3px solid #00ADB5;
+    border-radius: 0.2rem;
 }
 
 .name-color {
     color: #00ADB5;
+}
+
+.title {
+    font-size: 2rem;
+    color: #00ADB5;
+}
+
+.no-line {
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: .3s;
+}
+
+.no-line:hover {
+    color: #00ADB5;
+    transition: .3s;
+}
+
+.margin-top {
+    margin-top: 5rem;
 }
