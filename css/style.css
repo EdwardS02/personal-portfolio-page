@@ -37,3 +37,26 @@ nav a:hover {
     color: #00ADB5;
     transition: .3s;
 }
+
+#intro {
+    background-color: #222831;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#intro-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#intro-content p {
+    max-width: 40rem;
+}
+
+#intro-content img {
+    height: 20rem;
+}
+
+.name-color {
+    color: #00ADB5;
+}
