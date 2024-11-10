@@ -1,11 +1,13 @@
 body {
+    /* Choose a color palette that reflects the style you want for your portfolio. */
     background-color: #393E46;
+    /* Select font families for headings and body text. */
     font-family: "Montserrat", serif;
     color: #EEEEEE;
     margin: 0;
     padding: 0;
 }
-
+/* Style the header with your chosen colors, fonts, and padding. */
 header {
     background-color: #222831;
     display: flex;
@@ -37,7 +39,7 @@ nav a:hover {
     color: #00ADB5;
     transition: .3s;
 }
-
+/* Use CSS to position elements and add padding/margins for spacing. */
 .container {
     background-color: #222831;
     margin: 2rem;
@@ -49,10 +51,14 @@ nav a:hover {
     justify-content: space-around;
 }
 
-#intro p {
-    max-width: 40rem;
+.content {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+/* Style each portfolio item with a border, shadow, or background effect. */
 .image {
     height: 20rem;
     border: 3px solid #00ADB5;
