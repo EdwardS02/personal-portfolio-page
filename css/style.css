@@ -88,3 +88,13 @@ nav a:hover {
 .margin-top {
     margin-top: 5rem;
 }
+
+.skill-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skill-title img {
+    height: 2rem;
+}
