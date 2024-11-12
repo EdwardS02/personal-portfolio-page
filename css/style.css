@@ -103,3 +103,53 @@ nav a:hover {
 .skill-title img {
     height: 2rem;
 }
+
+label {
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+}
+
+#name, #email {
+    /* padding: .5rem 1rem; */
+    border-bottom: 1px solid #EEEEEE;
+    width: 15rem;
+}
+
+textarea {
+    width: 20rem;
+    height: 10rem;
+}
+
+input, textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #EEEEEE;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #eeeeee77;
+    font-family: "Montserrat", serif;;
+}
+
+#submit {
+    display: block;
+    margin-top: 4rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid #00ADB5;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #EEEEEE;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+#submit:hover {
+    background-color: #00ADB5;
+    cursor: pointer;
+    transition: .3s;
+}
+
