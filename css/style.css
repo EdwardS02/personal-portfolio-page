@@ -119,6 +119,8 @@ label {
 textarea {
     width: 20rem;
     height: 10rem;
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 input, textarea {
@@ -158,6 +160,11 @@ input::placeholder, textarea::placeholder {
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    
+}
+
+.socials img {
+    height: 2rem;
 }
 
 footer p {
