@@ -160,14 +160,14 @@ input::placeholder, textarea::placeholder {
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    
 }
 
 .socials img {
     height: 2rem;
 }
 
-footer p {
+.copyright {
+    margin-top: 3rem;
     text-align: center;
     color: #eeeeeeaa;
 }
